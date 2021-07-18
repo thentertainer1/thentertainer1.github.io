@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/2021/07/18/Linux%20dd%20%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>title: linux dd** 命令 语法  功能介绍</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Linux dd 命令</title>
     <url>/2021/07/18/Linux-dd-%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h2 id="dd命令用途"><a href="#dd命令用途" class="headerlink" title="dd命令用途"></a>dd命令用途</h2><p>转换并复制文件</p>
@@ -27,12 +33,6 @@
 <p>   注:<br>   如果输入文件大于输出设备的物理大小，那么 dd 命令将会提示您使用另外一个设备。<br> \12. 要将块从块大小为 32k 字节的输入文件复制到磁带中，请输入：</p>
 <p>   dd if=inputfile of=/dev/rmt0 bs=32k conv=sync span=yes</p>
 <p> \13. 要将块数据从块大小为 32k 的磁带复制到当前目录中的文件中，请输入：<br>   dd if=dev/rmt0 of=outfile bs=32k conv=sync span=yes</p>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2021/07/18/Linux%20dd%20%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p>title: linux dd** 命令 语法  功能介绍</p>
 ]]></content>
   </entry>
 </search>
