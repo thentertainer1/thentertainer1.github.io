@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-t%20ouch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/Ada%20lovelace.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/bruce.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="A humourist">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Monastery">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Monastery">
+<meta property="og:description" content="A humourist">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="thentertainer1">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Monastery</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Monastery</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">something for nothing</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">0</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">0</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">1</span></a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/18/Linux-dd-%E5%91%BD%E4%BB%A4/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/bruce.png">
+      <meta itemprop="name" content="thentertainer1">
+      <meta itemprop="description" content="A humourist">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Monastery">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/07/18/Linux-dd-%E5%91%BD%E4%BB%A4/" class="post-title-link" itemprop="url">Linux dd 命令</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-07-18 09:25:12 / 修改时间：10:05:46" itemprop="dateCreated datePublished" datetime="2021-07-18T09:25:12+08:00">2021-07-18</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="dd命令用途"><a href="#dd命令用途" class="headerlink" title="dd命令用途"></a>dd命令用途</h2><p>转换并复制文件</p>
+<h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><p>dd [ bs=BlockSize ][ cbs=BlockSize ] [ conv= [ ascii | block | ebcdic | ibm | unblock ] [ lcase | ucase ] [ iblock ] [ noerror ] [ swab ] [ sync ] [ oblock ] [ notrunc ] ] [ count=InputBlocks ] [ files=InputFiles ] [ fskip=SkipEOFs ] [ ibs=InputBlockSize ] [ if=InFile ] [ obs=OutputBlockSize ][ of=OutFile ] [ seek=RecordNumber ] [ skip=SkipInputBlocks ][ span=yes|no ]</p>
+<p>dd [ Option=Value ]</p>
+<h2 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h2><p>dd 命令读取 InFile 参数或者标准输入，进行指定的转换，然后将转换后的结果复制到 OutFile 参数或者标准输出中。可以指定输入输出块的大小以利用原始的物理 I/O。<br>注:<br>Block 项指的是 dd 命令在一个操作中读取或者写的数据的数量，并且无需和磁盘块的大小相等。</p>
+<p>指定了大小的地方需要一定字节数。由 w、b 或者 k 结尾的数字表示分别与 2、512 或者 1024 相乘；由 x 或者 * （星号）隔开的两个数字说明是乘积。count 参数表示待复制的块的数量，而不是字节的数量。</p>
+<p>由 conv=ascii 和 conv=ebcdic 标志关联的字符集映射是求补运算。这些标志在 ASCII 字符和大多数工作站和键控穿孔机上找到的 EBCDIC 字符子集间进行映射。</p>
+<p>如 果指定了任何 block、unblock、ascii、ebcdic 或 ibm 转换，则使用 cbs 参数值。如果指定了 unblock 或者 ascii 参数，那么 dd 命令将会执行一个固定长度到可变长度的转换。否则它将执行从可变长度到固定长度的转换。cbs 参数决定了该固定长度。<br>注意: 如果 cbs 参数指定的值小于最小输入块的值，则转换块将会被截短。</p>
+<p>转换完成后，dd 命令将报告完整和部分输入输出块的数量。<br>注:</p>
+<p>  \1. 通常您只需对输出文件的写许可。但是，当输出文件是不能直接访问的设备并且使用了 seek 标志，您还需要对文件的读访问。<br>  \2. 只有当以 conv=ascii 或 conv=unblock 标志集转换时，dd 命令才会插入新行字符；只有当以 conv=ebcdic、 conv=ibm 或者 conv=block 标志集转换时，才能填充。<br>  \3. 在将文件复制到磁带时，尽可能使用 backup、tar 或者 cpio 命令来取代 dd 命令。这些命令被设计用来和磁带设备一起使用。要获得更多的使用磁带设备的信息，请参阅 rmt 特殊文件。<br>  \4. 由 bs、ibs 和 obs 标志指定的块大小值必须始终是使用的介质物理块大小的整数倍。<br>  \5. 当指定了 conv=sync 标志后，dd 命令用空值填充所有的部分输入块。这样，如果任何读取没有接收到一个完整的数据块（由标志 ibs 指定），则 dd 命令将在数据流中间插入空值。在从管道中读入时，这是经常发生的事情。<br>  \6. 如果 bs 标志由它自身指定而除了 sync、noerror 或者 notrunc 没有指定其它转换，那么从每个输入块得到的数据将会被作为一个单独的输出块写入；如果读入返回的值小于一个完整的块且没有指定 sync 标志，那么结果输出块将会和输入块的大小相同。如果没有指定 bs 标志或者指定了 sync、noerror 或 notrunc 之外的其它转换，那么输入将会被处理并收集到完整的输出块中，直到输入结束。</p>
+<h2 id="设备范围"><a href="#设备范围" class="headerlink" title="设备范围"></a>设备范围</h2><p>如果输入文件比输出设备的物理大小要大，dd 命令可以跨设备工作。<br>注:<br>在指定块大小时注意 bs 必须为设备物理大小的整数倍因为不正确的块大小将会导致数据的不一致或者重叠。</p>
+<p>如果 InFile 或 OutFile 参数是 stdin 或 stdout 时，dd 的跨设备范围将不会出现。</p>
+<p>在写的过程中如果输出设备已经写满，dd 命令提示输入下一个设备时，将发生跨范围操作。从输入设备读入时，如果数据已从设备中完全读取（即使设备没有到达结尾），dd 也将提示下一个设备。在这种情况下，需要按下‘n’退出。</p>
+<h2 id="标志"><a href="#标志" class="headerlink" title="标志"></a>标志</h2><p>bs=BlockSize   指定输入输出块的大小，取代 ibs 和 obs 标志。由 bs 标志指定的块大小值必须始终是使用的媒介物理块大小的整数倍。<br>cbs=BlockSize   指定由可变长度到固定长度和从固定长度到可变长度（如 conv=block）的转换块大小。<br>count=InputBlocks   仅复制由 InputBlocks 变量指定的输入块的数量。<br>conv= Conversion,….   指定一个或者多个转换选项。多个转换之间用逗号隔开。以下清单描述了可能的选项：</p>
+<p>ascii<br>  由 EBCDIC 转换为 ASCII。该选项与 ebcdic、ibm、block 和 unblock 选项冲突。<br>block<br>  将变长记录转换到固定长度。长度由转换块大小（cbs）决定。该选项与 ascii、ebcdic、ibm 和 unblock 选项冲突。<br>ebcdic<br>  由 ASCII 转换到标准 EBCDIC。该选项与 ascii、ibm、block 和 unblock 选项冲突。<br>ibm<br>  将 ASCII 转换为 IBM 版本的 EBCDIC。该选项与 ascii、ebcdic、block 和 unblock 选项冲突。<br>iblock、 oblock<br>  在直接访问设备发生读写错误时使数据损失最小。如果您指定了 iblock 变量而在块读取期间发生了错误（其中块大小为 512 或者由 ibs=InputBlockSize 变量指定大小），dd 命令试图以较小的大小单元重新读取数据块。如果 dd 命令可以确定输入设备的扇区大小，它将每次读取损坏块的一个扇区。否则它将每次读取 512 字节。输入块大小（ibs）必须是重试大小的整数倍。该选项包含与读入单个扇区错误有关的数据丢失。oblock 转换在输出时进行类似工作。<br>lcase<br>  使得所有的字母字符转换为小写。<br>noerror<br>  发生错误也不停止进程。<br>notrunc<br>  不截取输出文件。相反，将保留不显式写入输出的块。<br>ucase<br>  使得所有的字母字符转换为大写。<br>swab<br>  交换每对字节。<br>sync<br>  将每个输入块填充到由 ibs 值指定的长度。<br>unblock<br>  将固定长度的块转化为可变长度。长度由转换块大小（cbs）决定。该选项与 ascii、ebcdic、ibm 和 block 选项冲突。</p>
+<p>files=InputFiles   在结束之前复制由 InputFiles 变量值指定的文件数（只对磁带或类似设备输入的有用）。<br>fskip=SkipEOFs   在开始复制之前跳过由 SkipEOFs 变量指定数量的文件结束符；该 SkipEOFs 变量在多文件磁带中进行定位时很有用。<br>ibs=InputBlockSize   指定输入块的大小；缺省值为 512 字节或者一个块。由 ibs 标志指定的块大小值必须始终是使用的媒介物理块大小的整数倍。<br>if=InFile   指定输入文件的名称；标准输入是缺省值。<br>obs=OutputBlockSize   指定输出块的大小；缺省值为 512 字节或者一个块。由 obs 标志指定的块大小值必须始终是使用的媒介物理块大小的整数倍。<br>of=OutFile   指定输出文件的名称；标准输出是缺省值。<br>seek=RecordNumber   在复制之前从输出文件的开始寻找由 RecordNumber 变量指定的记录。<br>skip=SkipInputBlocks   在开始复制之前跳过指定的 SkipInputBlocks 值的输入块。<br>span=yes|no   如果指定为 yes 则允许设备范围而如果指定为 no则按缺省工作。请参阅 Spanning Across Devices 以获得更多信息。</p>
+<h2 id="退出状态"><a href="#退出状态" class="headerlink" title="退出状态"></a>退出状态</h2><p>此命令返回下列退出值：<br>0   输入文件已经成功复制。<br>&gt;0   发生错误。</p>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p>  \1. 要将 ASCII 文本文件转化为 EBCDIC，请输入：<br>   dd if=text.ascii of=text.ebcdic conv=ebcdic<br>   该命令将 text.ascii 文件转化为 EBCDIC 版本并存在 text.ebcdic 文件中。<br>   注:<br>   如果您指定了 conv=ebcdic 参数，dd 命令将会将 ASCII ^（弯曲号）字符转换为未使用的 EBCDIC 字符（十六进制的 9A），将 ASCII ~（代字号）转换为 EBCDIC ^（NOT 符号）。<br>  \2. 要将变长记录的 ASCII 文件 /etc/passwd 转换为一个固定长度为 132 字节的 EBCDIC 纪录，请输入：<br>   dd if=/etc/passwd cbs=132 conv=ebcdic of=/tmp/passwd.ebcdic<br>  \3. 要将每个记录为 132 字节的 EBCDIC 文件转换为小写的、可变长度的 ASCII 行，请输入：<br>   dd if=/tmp/passwd.ebcdic cbs=132 conv=ascii of=/tmp/passwd.ascii<br>  \4. 要将变长记录的 ASCII 文件/etc/passwd 转换为一个固定长度为 132 字节的 IBM 版本的 EBCDIC 文件，请输入：<br>   dd if=/etc/passwd cbs=132 conv=ibm of=/tmp/passwd.ibm<br>  \5. 要从块大小为 1kB 的磁带中将块复制到块大小为 2kB 的磁带，请输入：<br>   dd if=/dev/rmt0 ibs=1024 obs=2048 of=/dev/rmt1<br>  \6. 要将 dd 命令作为一个过滤器使用，请输入：<br>   ls -l | dd conv=ucase<br>   该命令将用大写字母显示当前目录的长列表。<br>   注:<br>   dd 和 cpio 命令在 12 型 9348 磁带单元上的性能可以通过修改缺省块大小来得到改善。要修改块大小，请按下面的方法使用 chdev 命令：</p>
+<p>   chdev -l Device_name -a block_size=32k</p>
+<p>  \7. 要使用 36个 512 字节块来有效的实现向 3.5 英寸 1.4MB 软盘的传输，请输入：<br>   dd if=Filename of=/dev/rfd0 bs=36b conv=sync</p>
+<p>   该命令将 Filename 参数的值一次一个柱面的写入到软盘设备。当从磁盘读入或者当文档的大小不是软盘块大小的整数倍时需要 conv=sync 参数。如果 dd 命令的输入是一个管道而不是一个文件，请勿尝试使用本方法，它将在大多数输入中填充入空格而不只是最后一个块。<br>  \8. 要将块从块大小为 720 字节的输入文件复制到 1.44MB 大小的软盘当中，请输入：<br>   dd if=testfile of=/dev/fd0 bs=720b conv=sync<br>   注:<br>   如果输入文件大于输出设备的物理大小，dd 命令将会提示您使用另外一个设备。<br>  \9. 要将块从块大小为 32k 字节的输入文件复制到磁带中，请输入：<br>   dd if=inputfile of=/dev/rmt0 bs=32k conv=sync<br> \10. 要将数据的块从磁带复制到当前目录中的文件中（块大小设置为 32k），按照下面的方法输入：<br>   dd if=/dev/rmt0 of=outfile bs=32k conv=sync<br> \11. 要将块从块大小为 720 字节的输入文件复制到 1.44MB 大小的软盘当中，请输入：</p>
+<p>   dd if=testfile of=/dev/fd0 bs=720b conv=sync span=yes</p>
+<p>   注:<br>   如果输入文件大于输出设备的物理大小，那么 dd 命令将会提示您使用另外一个设备。<br> \12. 要将块从块大小为 32k 字节的输入文件复制到磁带中，请输入：</p>
+<p>   dd if=inputfile of=/dev/rmt0 bs=32k conv=sync span=yes</p>
+<p> \13. 要将块数据从块大小为 32k 的磁带复制到当前目录中的文件中，请输入：<br>   dd if=dev/rmt0 of=outfile bs=32k conv=sync span=yes</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=873013&auto=1&height=66"></iframe>
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="thentertainer1"
+      src="/images/bruce.png">
+  <p class="site-author-name" itemprop="name">thentertainer1</p>
+  <div class="site-description" itemprop="description">A humourist</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">thentertainer1</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
